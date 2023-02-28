@@ -1,0 +1,1658 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="description" content="Documentation for Hugo Learn Theme">
+<meta name="author" content="Mathieu Cornic">
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+    <title>Day 2 Session 5 :: Documentation for Hugo Learn Theme</title>
+
+    
+    <link href="/css/nucleus.css?1677600950" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1677600950" rel="stylesheet">
+    <link href="/css/hybrid.css?1677600950" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1677600950" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1677600950" rel="stylesheet">
+    <link href="/css/auto-complete.css?1677600950" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1677600950" rel="stylesheet">
+    <link href="/css/theme.css?1677600950" rel="stylesheet">
+    <link href="/css/tabs.css?1677600950" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1677600950" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1677600950"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/en/day-2/session_5/">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href='/en'>
+
+<svg id="grav-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="100%" height="100%"  viewBox="0 0 285.1 69.9" xml:space="preserve">
+<g>
+	<path d="M35,0c9.6,0,17.9,3.4,24.7,10.3c6.8,6.8,10.3,15,10.3,24.7c0,9.7-3.4,17.9-10.3,24.7c-6.8,6.8-15,10.3-24.7,10.3
+		c-9.7,0-17.9-3.4-24.7-10.3C3.4,52.8,0,44.6,0,34.9c0-9.6,3.4-17.9,10.3-24.7C17.1,3.4,25.3,0,35,0z M22.3,63.7
+		c0.3-7.4,0.3-14.7,0-22.1c-2.1-0.4-4-0.4-5.9,0c-0.2,0.8-0.2,2.5-0.1,4.9c0.1,2.3,0,3.9-0.3,4.8c-1.7-0.6-2.7-2.1-3.1-4.6
+		c-0.1-0.7-0.1-3.3-0.1-8c0-14.5-0.1-23-0.3-25.6c-3.6,4.1-5.6,7-5.9,8.5v10.9c0,4.5,0.1,8.1,0.2,10.9c0,0.4,0,1.3-0.1,2.8
+		c-0.1,1.2,0,2.1,0.1,2.6c0.1,0.6,1.1,2.1,2.8,4.7C13.2,58.7,17.5,62.2,22.3,63.7z M44.6,65.4c0.3-5,0.2-12.9-0.1-23.6
+		c-2.1-0.3-4.1-0.3-5.9,0c-0.2,2-0.2,5.1-0.1,9.5c0.1,4.3,0,7.5-0.1,9.5c-2.9,0.4-5,0.3-6.2-0.1c-0.2-5.6-0.2-15.2-0.1-28.7
+		c0.1-12.4,0-21.8-0.3-28.3c-2.4,0.1-4.3,0.6-5.7,1.3c-0.1,7.7-0.2,17.7-0.1,30.1c0,16.5,0,26.6,0,30.3c2.3,1.1,5.4,1.7,9.4,1.7
+		C38.9,66.9,42.1,66.4,44.6,65.4z M48.1,64.1c9.7-4.6,15.7-12,18-22.2c-1.8-0.2-3.8-0.3-6.1-0.3c-1.6,3.9-2.6,6.3-3.2,7.2
+		c-1.1,1.7-2,2.5-2.7,2.5C54,46,54,39.1,54,30.5c0-11.5,0-18.4,0-20.9c-1.4-1.4-3.3-2.5-5.7-3.4C48.1,6.3,48,6.4,48,6.7
+		c0,3.5,0,13.1,0,28.8C47.9,47.2,48,56.8,48.1,64.1z"/>
+</g>
+<g>
+	<path d="M116.6,51.3h-29c-0.5,0-0.9-0.1-1.3-0.2c-0.4-0.2-0.7-0.4-1-0.7c-0.3-0.3-0.5-0.6-0.7-1c-0.2-0.4-0.2-0.8-0.2-1.3V16.3h6.3
+		V45h25.8V51.3z"/>
+	<path d="M154.8,51.3h-22.9c-0.9,0-1.8-0.2-2.9-0.5c-1-0.3-2-0.8-2.9-1.5c-0.9-0.7-1.6-1.6-2.2-2.8c-0.6-1.1-0.9-2.5-0.9-4.2V19.5
+		c0-0.4,0.1-0.9,0.2-1.2c0.2-0.4,0.4-0.7,0.7-1c0.3-0.3,0.6-0.5,1-0.7c0.4-0.2,0.8-0.2,1.3-0.2h28.6v6.3h-25.4v19.8
+		c0,0.8,0.2,1.5,0.7,1.9s1.1,0.7,1.9,0.7h22.9V51.3z M151.9,37h-20v-6.4h20V37z"/>
+	<path d="M197.3,51.3H191v-8.6h-22.3v8.6h-6.3V33.8c0-2.6,0.4-4.9,1.3-7.1s2.1-4,3.7-5.5c1.6-1.5,3.4-2.8,5.5-3.6
+		c2.1-0.9,4.5-1.3,7-1.3h14.3c0.4,0,0.9,0.1,1.2,0.2c0.4,0.2,0.7,0.4,1,0.7s0.5,0.6,0.7,1c0.2,0.4,0.2,0.8,0.2,1.2V51.3z
+		 M168.7,36.4H191V22.6h-11.2c-0.2,0-0.6,0-1.2,0.1c-0.6,0.1-1.4,0.2-2.2,0.4c-0.8,0.2-1.7,0.6-2.6,1c-0.9,0.5-1.8,1.1-2.5,2
+		c-0.8,0.8-1.4,1.9-1.9,3.1c-0.5,1.2-0.7,2.8-0.7,4.5V36.4z"/>
+	<path d="M241.7,28.1c0,1.4-0.2,2.7-0.5,3.9c-0.4,1.1-0.8,2.1-1.5,3c-0.6,0.9-1.3,1.6-2.1,2.2c-0.8,0.6-1.6,1.1-2.5,1.5
+		c-0.9,0.4-1.8,0.7-2.6,0.9c-0.9,0.2-1.7,0.3-2.5,0.3l13.3,11.5h-9.8l-13.2-11.5h-4.6v-6.3H230c0.8-0.1,1.5-0.2,2.2-0.5
+		c0.7-0.3,1.2-0.6,1.7-1.1c0.5-0.5,0.9-1,1.1-1.6c0.3-0.6,0.4-1.4,0.4-2.2v-4c0-0.4,0-0.6-0.1-0.8c-0.1-0.2-0.2-0.3-0.3-0.4
+		c-0.1-0.1-0.3-0.1-0.4-0.2c-0.2,0-0.3,0-0.4,0h-20.9v28.7h-6.3V19.5c0-0.4,0.1-0.9,0.2-1.2c0.2-0.4,0.4-0.7,0.7-1
+		c0.3-0.3,0.6-0.5,1-0.7c0.4-0.2,0.8-0.2,1.3-0.2H234c1.4,0,2.6,0.3,3.6,0.8s1.8,1.2,2.4,1.9c0.6,0.8,1,1.6,1.3,2.5
+		c0.3,0.9,0.4,1.7,0.4,2.5V28.1z"/>
+	<path d="M285.1,48.6c0,0.5-0.1,0.9-0.3,1.3c-0.2,0.4-0.4,0.7-0.7,1c-0.3,0.3-0.6,0.5-1,0.7c-0.4,0.2-0.8,0.2-1.2,0.2
+		c-0.4,0-0.8-0.1-1.2-0.2c-0.4-0.1-0.8-0.4-1.1-0.7l-23.2-24.2v24.7h-6.3V19c0-0.7,0.2-1.2,0.5-1.8c0.4-0.5,0.8-0.9,1.4-1.2
+		c0.6-0.2,1.2-0.3,1.9-0.2s1.2,0.4,1.6,0.9l23.2,24.2V16.3h6.3V48.6z"/>
+</g>
+</svg>
+
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1677600950"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1677600950"></script>
+<script type="text/javascript">
+    
+        var baseurl = "\/\/en";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1677600950"></script>
+
+    
+  </div>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/day-1/" title="Day 1" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/day-1/">
+          <b>1. </b>Day 1
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/day-1/session_1/" title="Day 1 Session 1" class="dd-item ">
+        <a href="/en/day-1/session_1/">
+        Day 1 Session 1
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/day-1/session_2/" title="Day 1 Session 2" class="dd-item ">
+        <a href="/en/day-1/session_2/">
+        Day 1 Session 2
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/day-1/session_3/" title="Day 1 Session 3" class="dd-item ">
+        <a href="/en/day-1/session_3/">
+        Day 1 Session 3
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/day-2/" title="Day 2" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/en/day-2/">
+          <b>2. </b>Day 2
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/day-2/session_4/" title="Day 2 Session 4" class="dd-item ">
+        <a href="/en/day-2/session_4/">
+        Day 2 Session 4
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/day-2/session_5/" title="Day 2 Session 5" class="dd-item active">
+        <a href="/en/day-2/session_5/">
+        Day 2 Session 5
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/day-2/session_6/" title="Day 2 Session 6" class="dd-item ">
+        <a href="/en/day-2/session_6/">
+        Day 2 Session 6
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/day-3/" title="Day 3" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/day-3/">
+          <b>3. </b>Day 3
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/day-3/session_7/" title="Day 3 Session 7" class="dd-item ">
+        <a href="/en/day-3/session_7/">
+        Day 3 Session 7
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://github.com/matcornic/hugo-theme-learn"><i class='fab fa-fw fa-github'></i> GitHub repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="/en/showcase"><i class='fas fa-fw fa-camera'></i> Showcases</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://gohugo.io/"><i class='fas fa-fw fa-bookmark'></i> Hugo Documentation</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="en/credits"><i class='fas fa-fw fa-bullhorn'></i> Credits</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+          <div class="select-style">
+            <select id="select-language" onchange="location = this.value;">
+          
+          
+          
+              
+              
+                  
+                    
+                    
+                      <option id="en" value="/en/day-2/session_5/" selected>English</option>
+                    
+                  
+              
+                  
+              
+                  
+              
+          
+        </select>
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
+          <g>
+            <g id="arrow-drop-down">
+              <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+            </g>
+          </g>
+        </svg>
+        </div>
+        </a>
+        </li>
+      
+
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <center>
+    
+    <a class="github-button" href="https://github.com/matcornic/hugo-theme-learn/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download matcornic/hugo-theme-learn on GitHub">Download</a>
+
+    
+    <a class="github-button" href="https://github.com/matcornic/hugo-theme-learn" data-icon="octicon-star" data-show-count="true" aria-label="Star matcornic/hugo-theme-learn on GitHub">Star</a>
+
+    
+    <a class="github-button" href="https://github.com/matcornic/hugo-theme-learn/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork matcornic/hugo-theme-learn on GitHub">Fork</a>
+
+    <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+</center>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/Day%202/session_5.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/en/'>PSA Conference Programme</a> > <a href='/en/day-2/'>Day 2</a> > Day 2 Session 5
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#hahahugoshortcode-s0-hbhb">HAHAHUGOSHORTCODE-s0-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s1-hbhb">HAHAHUGOSHORTCODE-s1-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s2-hbhb">HAHAHUGOSHORTCODE-s2-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s3-hbhb">HAHAHUGOSHORTCODE-s3-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s4-hbhb">HAHAHUGOSHORTCODE-s4-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s5-hbhb">HAHAHUGOSHORTCODE-s5-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s6-hbhb">HAHAHUGOSHORTCODE-s6-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s7-hbhb">HAHAHUGOSHORTCODE-s7-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s8-hbhb">HAHAHUGOSHORTCODE-s8-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s9-hbhb">HAHAHUGOSHORTCODE-s9-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s10-hbhb">HAHAHUGOSHORTCODE-s10-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s11-hbhb">HAHAHUGOSHORTCODE-s11-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s12-hbhb">HAHAHUGOSHORTCODE-s12-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s13-hbhb">HAHAHUGOSHORTCODE-s13-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s14-hbhb">HAHAHUGOSHORTCODE-s14-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s15-hbhb">HAHAHUGOSHORTCODE-s15-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s16-hbhb">HAHAHUGOSHORTCODE-s16-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s17-hbhb">HAHAHUGOSHORTCODE-s17-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s18-hbhb">HAHAHUGOSHORTCODE-s18-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s19-hbhb">HAHAHUGOSHORTCODE-s19-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s20-hbhb">HAHAHUGOSHORTCODE-s20-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s21-hbhb">HAHAHUGOSHORTCODE-s21-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s22-hbhb">HAHAHUGOSHORTCODE-s22-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s23-hbhb">HAHAHUGOSHORTCODE-s23-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s24-hbhb">HAHAHUGOSHORTCODE-s24-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s25-hbhb">HAHAHUGOSHORTCODE-s25-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s26-hbhb">HAHAHUGOSHORTCODE-s26-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s27-hbhb">HAHAHUGOSHORTCODE-s27-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s28-hbhb">HAHAHUGOSHORTCODE-s28-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s29-hbhb">HAHAHUGOSHORTCODE-s29-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s30-hbhb">HAHAHUGOSHORTCODE-s30-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s31-hbhb">HAHAHUGOSHORTCODE-s31-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s32-hbhb">HAHAHUGOSHORTCODE-s32-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s33-hbhb">HAHAHUGOSHORTCODE-s33-HBHB</a></li>
+        <li><a href="#hahahugoshortcode-s34-hbhb">HAHAHUGOSHORTCODE-s34-HBHB</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Day 2 Session 5
+            </h1>
+          
+
+        
+
+
+<h3 id="hahahugoshortcode-s0-hbhb"><details open>
+  <summary>▶  Day 2 Session 6 Panel 1 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 1</li>
+<li>SPECIALIST GROUP NUMBER 1</li>
+</ul>
+<p>The G20 and Russo-Ukrainian War: The Limitation of Rules in Responding to Contesting Values</p>
+<ul>
+<li>Ms Diandra Ayu Larasati, Gadjah Mada University</li>
+<li>Ms Nasta Indraswari, Gadjah Mada University</li>
+<li>Ms Sitihatija Nurhuda Talaohu, Gadjah Mada University</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s1-hbhb"><details open>
+  <summary>▶  Day 2 Session 3 Panel 2 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 2</li>
+<li>SPECIALIST GROUP NUMBER 2</li>
+</ul>
+<p>Future Imaginaries and Climate Deliberation</p>
+<ul>
+<li>Dr Jacob Ainscough, Lancaster University</li>
+<li>Mr Pancho Lewis, Lancaster University</li>
+</ul>
+<p>Does Internal Party Democracy Destabilise Political Parties</p>
+<ul>
+<li>Dr Thomas Ron, University of York</li>
+</ul>
+<p>‘A Psycho-political exploration of British national identity in 2020’</p>
+<ul>
+<li>Dr Tabitha A. Baker, Bournemouth University</li>
+</ul>
+<p>Scrutiny of Ministerial Ethics and Standards of Conduct in the UK: Diluted Accountability?</p>
+<ul>
+<li>Prof Robert Pyper, University of the West of Scotland</li>
+<li>Dr Sean Kippin, University of Stirling</li>
+</ul>
+<p>Looking Back at UK Parliamentary Diplomacy to Look Forward:  What Can We Expect from EU27-UK Inter-Parliamentary Relations?</p>
+<ul>
+<li>Dr Cherry Miller, University of Glasgow</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s2-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 2 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 2</li>
+<li>SPECIALIST GROUP NUMBER 2</li>
+</ul>
+<p>Can you hear me? An analysis on how virtual proceeding affected the content and influence of legislative speeches</p>
+<ul>
+<li>Dr Wang Leung Ting, University of Reading</li>
+</ul>
+<p>What is Sustainability? Using drawings to understand students&rsquo; perception of sustainability</p>
+<ul>
+<li>Dr John Hogan, Technological University Dublin</li>
+<li>Dr Sharon Feeney, Technological University Dublin</li>
+</ul>
+<p>Left populism and institutions: lessons from Ecuador on Laclau’s antinomies</p>
+<ul>
+<li>Dr Samuele Mazzolini, Università degli Studi Suor Orsola Benincasa</li>
+</ul>
+<p>Political participation of young people: what future?</p>
+<ul>
+<li>Dr Carlos Paz, Portuguese Institute of Sport and Youth</li>
+</ul>
+<p>Scales of governance and policy for active travel in London: the case of Old Oak, HS2 and Park Royal</p>
+<ul>
+<li>Dr Dan Greenwood, University of Westminster</li>
+<li>Prof Rachel Aldred, University of Westminster</li>
+<li>Dr Jan-Joris Gerhards, University of Westminster</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s3-hbhb"><details open>
+  <summary>▶  Day 2 Session 4 Panel 3 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 3</li>
+<li>SPECIALIST GROUP NUMBER 3</li>
+</ul>
+<p>Legitimacy, Loyalty and Solidarity: The Functions of Political Rituals in Xi&rsquo;s China</p>
+<ul>
+<li>Mr Zhihao Ma, University of York</li>
+<li>Ms Yujue Cao, University of York</li>
+<li>Mr Zelong Zhou, King&rsquo;s College London</li>
+<li>Ms Yaxin Hu, Shanghai International Studies University</li>
+</ul>
+<p>A Lacanian reading of the multitude: when the &ldquo;monster&rdquo; produces racist and sexist fantasies</p>
+<ul>
+<li>Mrs Beatriz Buarque, University of Manchester</li>
+</ul>
+<p>Restoring reputation through digital diplomacy: European Union’s strategic narratives on Twitter during the COVID-19 pandemic</p>
+<ul>
+<li>Mr Pablo Moral, Universidad Pablo de Olavide</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s4-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 3 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 3</li>
+<li>SPECIALIST GROUP NUMBER 3</li>
+</ul>
+<p>SKexit: South Korea&rsquo;s Attempt to Break With Japan During the Presidency of Moon Jae-in</p>
+<ul>
+<li>Dr Anand Rao, State University of New York at Geneseo</li>
+</ul>
+<p>The changing functions of parliamentary committees: locating and evaluating ‘evidence’ by select committees in the UK House of Commons</p>
+<ul>
+<li>Dr Marc Geddes, The University of Edinburgh</li>
+</ul>
+<p>Nyerere’s Theory of Democracy and the Challenges of the 21st Century Tanzanian Politics</p>
+<ul>
+<li>Mr Conrad MASABO, Hong Kong Baptist University</li>
+</ul>
+<p>EU: A(n) (in)coherent migration actor in the making?!</p>
+<ul>
+<li>Ms Filio Kyriacou, University of Nicosia</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s5-hbhb"><details open>
+  <summary>▶  Day 2 Session 6 Panel 3 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 3</li>
+<li>SPECIALIST GROUP NUMBER 3</li>
+</ul>
+<p>The Machine Model: Re-imagining Japan’s Political “Iron Triangle” using Comparative Analysis of Aid and Diplomatic Policy Outcomes in Vietnam and North Korea</p>
+<ul>
+<li>Mr James Kaizuka, University of Leeds</li>
+</ul>
+<p>Investigating Political Bias in Climate-Related Deliberative Mini Public Processes</p>
+<ul>
+<li>Ms Rachel Coxcoon, Lancaster University</li>
+</ul>
+<p>Democratizing Work in the Gig Economy: Participation, Power and Agency</p>
+<ul>
+<li>Mr Thijs Keulen, The University of Edinburgh</li>
+</ul>
+<p>Appraising Equity When Addressing Global Challenges through Inclusive Strategies: Exploring Experts and Evidence in Democratic Innovations</p>
+<ul>
+<li>Dr Ruth Lightbody, Glasgow Caledonian University</li>
+<li>Dr Jen Roberts, University of Strathclyde</li>
+<li>Dr Stefanie Reher, University of Strathclyde</li>
+<li>Ms Hannah Salamon, University of Strathclyde</li>
+<li>Dr Marco Reggiani, University of Strathclyde</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s6-hbhb"><details open>
+  <summary>▶  Day 2 Session 4 Panel 4 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 4</li>
+<li>SPECIALIST GROUP NUMBER 4</li>
+</ul>
+<p>How gender shapes affective polarisation in Europe</p>
+<ul>
+<li>Dr Roula Nezi, University of Surrey</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s7-hbhb"><details open>
+  <summary>▶  Day 2 Session 4 Panel 6 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 6</li>
+<li>SPECIALIST GROUP NUMBER 6</li>
+</ul>
+<p>(2)	Futuring Democracy Critically: Undoing the Western Bias</p>
+<ul>
+<li>Dr Dannica Fleuss, Dublin City University</li>
+</ul>
+<p>Increasing the Employability of Politics and IR Students: Adapting Teaching Methods to Develop ‘Industry-Ready Social Scientists’</p>
+<ul>
+<li>Dr Susan Kenyon, Canterbury Christ Church University</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s8-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 6 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 6</li>
+<li>SPECIALIST GROUP NUMBER 6</li>
+</ul>
+<p>A Luxemburgist Deliberative Democracy?</p>
+<ul>
+<li>Mr Theodore Stone, Birkbeck, University of London</li>
+</ul>
+<p>Deliberative Hopes and the Temporality of Democratic Politics</p>
+<ul>
+<li>Mr Antonin Lacelle-Webster, University of British Columbia</li>
+</ul>
+<p>England, the English, and UK Foreign Policy</p>
+<ul>
+<li>Prof John Denham, University of Southampton</li>
+<li>Dr Tim Oliver, Loughborough University</li>
+</ul>
+<p>Storming the Capital. Power, Domination, and (Mis-)Recognition</p>
+<ul>
+<li>Dr Jakob Hartl, Research Institute Social Cohesion</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s9-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 7 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 7</li>
+<li>SPECIALIST GROUP NUMBER 7</li>
+</ul>
+<p>TikTok as a Campaigning Platform: A Game Changer or a Fad?</p>
+<ul>
+<li>Dr Sharon Haleva-Amir, Bar-Ilan University</li>
+<li>Mrs Liat Goren-Lachmann, Bar-Ilan University</li>
+</ul>
+<p>Laddering interviewing as a method for democratic innovation research</p>
+<ul>
+<li>Dr Andrea Felicetti, Scuola Normale Superiore</li>
+<li>Dr James Pow, Queen&rsquo;s University Belfast</li>
+<li>Ms Lisa van Dijk, KU Leuven</li>
+<li>Prof Sofie Marien, KU Leuven</li>
+</ul>
+<p>Where and when was the French New Left? Activist Trajectories of Aimé Césaire and Others</p>
+<ul>
+<li>Prof Kevin Morgan, University of Manchester</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s10-hbhb"><details open>
+  <summary>▶  Day 2 Session 6 Panel 7 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 7</li>
+<li>SPECIALIST GROUP NUMBER 7</li>
+</ul>
+<p>Understanding the Role of Parties in the 2022 Jersey General Election</p>
+<ul>
+<li>Mr Theodore Stone, Birkbeck, University of London</li>
+</ul>
+<p>How imminent emergency was rhetorically constructing in parliamentary debates of the humanitarian disasters of Sierra Leone, Kosovo and Zimbabwe between 1998 to 2004</p>
+<ul>
+<li>Mr Thomas Compton, University of York</li>
+</ul>
+<p>Autonomy, Future Transport Systems and the Scope of Local Transport Policy</p>
+<ul>
+<li>Ms Bettina Lange, Radboud University</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s11-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 8 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 8</li>
+<li>SPECIALIST GROUP NUMBER 8</li>
+</ul>
+<p>Rise and Decline of a Messiah State: (Re)conceptualizing the global role of the United States since 1990</p>
+<ul>
+<li>Mr Adarsh Badri, Jawaharlal Nehru University, New Delhi</li>
+</ul>
+<p>Reconsidering autocratic support: The development of autocratic assemblages and recipient agency in Kenya and Ethiopia</p>
+<ul>
+<li>Mr Daniel Munday, University of Birmingham</li>
+</ul>
+<p>Party partisanship and party-society linkages</p>
+<ul>
+<li>Dr Giorgos Charalambous, University of Nicosia</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s12-hbhb"><details open>
+  <summary>▶  Day 2 Session 6 Panel 8 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 8</li>
+<li>SPECIALIST GROUP NUMBER 8</li>
+</ul>
+<p>Platform spectacle and populism in Youtube videos of Covid19 protests</p>
+<ul>
+<li>Dr Angelos Kissas, London School of Economics and Political Science</li>
+</ul>
+<p>Behind the British anti-Islam Populist Radical Right’s veil: Do individuals adopt strategic liberalism to appear more moderate or are they semi-liberal?</p>
+<ul>
+<li>Ms Alice Sibley, Nottingham Trent University</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s13-hbhb"><details open>
+  <summary>▶  Day 2 Session 3 Panel 9 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 9</li>
+<li>SPECIALIST GROUP NUMBER 9</li>
+</ul>
+<p>Transnational Left-Wing Populist Mobilizations: Exploring the Case of the New Balkan Left</p>
+<ul>
+<li>Ms Melika Mahmutović, Faculty of Social Sciences, University of Ljubljana</li>
+</ul>
+<p>Building a State of the Youth: An exploration of what space for youth-led change can be opened through a co-designed and embedded approach to participation</p>
+<ul>
+<li>Dr Sonia Bussu, Manchester Metropolitan University, UK</li>
+<li>Dr James Duggan, Manchester Metropolitan University, UK</li>
+<li>Dr Sarah Parry, Manchester Metropolitan University, UK</li>
+<li>Ms Katy Rubin, practioner</li>
+</ul>
+<p>Exploring Universal Basic Income and Participatory Community Organising as a policy solution to Unfreedom, Indignity and Indecent Work in India</p>
+<ul>
+<li>Mr Vibhor Mathur, University of Bath</li>
+</ul>
+<p>Variegated Processes of Post-Neoliberal Accumulation by Dispossession?</p>
+<ul>
+<li>Ms Alicja Krubnik, McMaster University</li>
+</ul>
+<p>Explaining the shift to universalism in the provision of student assistance in Philippine public higher education</p>
+<ul>
+<li>Mr Nelson Cainghog, Nagoya University</li>
+</ul>
+<p>Is everyone a populist? Examining how the rise of populist attitudes affected voting and policy preferences in the 2022 Italian election</p>
+<ul>
+<li>Dr David Coppini, University of Denver</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s14-hbhb"><details open>
+  <summary>▶  Day 2 Session 3 Panel 10 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 10</li>
+<li>SPECIALIST GROUP NUMBER 10</li>
+</ul>
+<p>The politics of non-existence</p>
+<ul>
+<li>Prof Maija Setälä, University of Turku</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s15-hbhb"><details open>
+  <summary>▶  Day 2 Session 4 Panel 11 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 11</li>
+<li>SPECIALIST GROUP NUMBER 11</li>
+</ul>
+<p>Dependence and Freedom in Hegel&rsquo;s Ethical Life</p>
+<ul>
+<li>Dr Tatiana Llaguno Nieves, University of Groningen</li>
+</ul>
+<p>ANIMAL POLITICS OR ANIMAL POLICE:  On the Troubled Relationship between Animal Advocacy, Race, and Religion</p>
+<ul>
+<li>Ms Mariska Jung, Vrije Universiteit Brussel</li>
+<li>Mr Jouke Huijzer, Vrij Universtiteit Brussel (Department of Political Science or POLI)</li>
+</ul>
+<p>Global Britain, Contested Spaces, and the British Overseas Territories</p>
+<ul>
+<li>Prof Peter Clegg, University of the West of England</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s16-hbhb"><details open>
+  <summary>▶  Day 2 Session 3 Panel 12 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 12</li>
+<li>SPECIALIST GROUP NUMBER 12</li>
+</ul>
+<p>The Question of Core-Periphery Dialogue in Global Studies: From a Matter of Choice to a Matter of Necessity</p>
+<ul>
+<li>Dr Eyup Ersoy, University of Birmingham</li>
+</ul>
+<p>Reasons to be Cheerful? Competing Left Futures in England’s ‘Red Wall’</p>
+<ul>
+<li>Mr Adam Dinsmore, University of York</li>
+</ul>
+<p>How did Jeremy Corbyn and the Labour Leadership deal with internal incidents of antisemitism?</p>
+<ul>
+<li>Mr Matthew Tait, Glasgow Caledonian University</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s17-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 13 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 13</li>
+<li>SPECIALIST GROUP NUMBER 13</li>
+</ul>
+<p>Putin, Politics and Propagandizing Memories of WW2 in Russia’s Far East</p>
+<ul>
+<li>Dr Tina Burrett, Sophia University Japan</li>
+</ul>
+<p>The contradictions of populism: reactionary YouTubers, ‘the people’ and conspiracies</p>
+<ul>
+<li>Ms Antonia Vaughan, University of Bath</li>
+</ul>
+<p>Something distant – building and breaking narratives around young people&rsquo;s engagement</p>
+<ul>
+<li>Ms Valentina Holecz, University of Geneva</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s18-hbhb"><details open>
+  <summary>▶  Day 2 Session 6 Panel 15 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 15</li>
+<li>SPECIALIST GROUP NUMBER 15</li>
+</ul>
+<p>Strategic Uses of ‘Diversity’ in Greek Parliamentary Discourse over 20 Years</p>
+<ul>
+<li>Dr Tilemachos Iatridis, University of Crete</li>
+<li>Dr Irini Kadianaki, University of Cyprus</li>
+<li>Dr Theofilos Gkinopoulos, University of Crete</li>
+</ul>
+<p>Comparing the ideology of Wang Huning and Mikhail Andreyevich Suslov to understand the current circumstance of Chinese ideology.</p>
+<ul>
+<li>Mr Daqi (Reinhardt) Fang, Hangzhou Yungu School</li>
+<li>Mr Ming Tian, Hangzhou Yungu School</li>
+</ul>
+<p>Race, Nation, and Age: theorising White settler futurism</p>
+<ul>
+<li>Mr Callum Stewart, University of Melbourne</li>
+</ul>
+<p>The 2022 General Election in Malta: Towards a “One and a Half Party” System?</p>
+<ul>
+<li>Dr Jean Claude Cachia, University of Malta</li>
+<li>Mr Andre Debattista, University of Malta</li>
+</ul>
+<p>“Facing the future: populism and its postmodern narratives. A dialectic between utopia, dystopia and counter-utopia. The case of France Unbowed  and the National Front on social media in France</p>
+<ul>
+<li>Mrs Morgane Belhadi, Université Sorbonne Nouvelle - Paris 3</li>
+</ul>
+<p>The impact of canvassing on voter choice</p>
+<ul>
+<li>Ms Emily Doughty, Durham University</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s19-hbhb"><details open>
+  <summary>▶  Day 2 Session 3 Panel 16 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 16</li>
+<li>SPECIALIST GROUP NUMBER 16</li>
+</ul>
+<p>Reshaping political theory in a time of crisis: Republican Domination and Climate Change</p>
+<ul>
+<li>Dr Ashley Dodsworth, University of Bristol</li>
+</ul>
+<p>Measuring the post-growth transition: economic policy indicators for a post-growth economy</p>
+<ul>
+<li>Mr Sean Fearon, Queen&rsquo;s University Belfast</li>
+</ul>
+<p>Political Imagination in Community-Led Initiatives: Constructing Meanings of Social Justice and Collective Agency</p>
+<ul>
+<li>Mr Felipe Quintão, Iscte - University Institute of Lisbon</li>
+<li>Dr Maria Fernandes-Jesus, York St John University</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s20-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 16 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 16</li>
+<li>SPECIALIST GROUP NUMBER 16</li>
+</ul>
+<p>The Welsh Government and World Wrestling Entertainment: a Tag Team Championing Wales?</p>
+<ul>
+<li>Dr David Moon, University of Bath</li>
+</ul>
+<p>Parental Participation in Decision-Making in School Governance, the Illusion of Democracy and the Challenge of New Public Management: The Case for a Deliberative Democratic System.</p>
+<ul>
+<li>Dr Jan Hetherington, Staffordshire University</li>
+<li>Prof Gillian Forrester, Staffordshire University</li>
+</ul>
+<p>A South-North approach (II): the ambiguities of “populism” in Latin American theories</p>
+<ul>
+<li>Mr Felipe Rafael Linden, École des Hautes Études en Sciences Sociales</li>
+</ul>
+<p>How Far Does the Apple Fall from the Tree? Party Messaging and Candidate Discourse Among Radical Right-Wing Politicians</p>
+<ul>
+<li>Dr William Daniel, University of Nottingham</li>
+<li>Dr Max-Valentin Robert, University of Nottingham</li>
+</ul>
+<p>The urban topography of the far right: vacancies, deprivation, and social cohesion</p>
+<ul>
+<li>Dr Jakob Hartl, Research Institute Social Cohesion</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s21-hbhb"><details open>
+  <summary>▶  Day 2 Session 4 Panel 18 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 18</li>
+<li>SPECIALIST GROUP NUMBER 18</li>
+</ul>
+<p>The next ideological phase of social media</p>
+<ul>
+<li>Mr Paul Geyer, University of Leeds</li>
+</ul>
+<p>Acceptance of Anti-guardians&rsquo; narratives: Electoral Politics in Establishmentarian Democracies</p>
+<ul>
+<li>Mr Rai Mansoor Imtiaz, University of York</li>
+</ul>
+<p>Exploring representations of climate change as ecocide in scholarly literature and EU climate policy</p>
+<ul>
+<li>Dr Filippos Proedrou, University of South Wales</li>
+<li>Dr Maria Pournara, Swansea University</li>
+</ul>
+<p>An exploration of the UK’s policy framework to address gendered violence, harassment and abuse against politicians</p>
+<ul>
+<li>Ms Hannah Phillips, University of Oxford</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s22-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 18 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 18</li>
+<li>SPECIALIST GROUP NUMBER 18</li>
+</ul>
+<p>Reasoning Stigmatised Identity and Behaviour in Nuclear Governance</p>
+<ul>
+<li>Mr Aniruddha Saha, King&rsquo;s College London</li>
+</ul>
+<p>The convergence of Brexit and partisan identities: sorting or adaptation?</p>
+<ul>
+<li>Dr Paolo Chiocchetti, Humboldt University Berlin</li>
+</ul>
+<p>Empowering digital democracy</p>
+<ul>
+<li>Dr Rahel Süß, Humboldt University Berlin</li>
+</ul>
+<p>Is there bias? Is there noise? Assessing potential errors in political fact-checking: evidence from a Spanish case study</p>
+<ul>
+<li>Mr Alejandro Fernández-Roldán, Universidad Nacional de Educación a Distancia (UNED)</li>
+<li>Dr Carlos Elias, Universidad Carlos III de Madrid</li>
+<li>Dr Carlos Santiago Caballero, Universidad Carlos III de Madrid</li>
+<li>Dr David Teira, Universidad Nacional de Educación a Distancia (UNED)</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s23-hbhb"><details open>
+  <summary>▶  Day 2 Session 3 Panel 19 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 19</li>
+<li>SPECIALIST GROUP NUMBER 19</li>
+</ul>
+<p>Documentary Analysis of Environmental Knowledge Utilisation in the World Bank</p>
+<ul>
+<li>Mrs Basak Erhan Cingir, University of Exeter</li>
+</ul>
+<p>Political Elites and Participatory Institutions: Between Knowledge and Preference</p>
+<ul>
+<li>Ms Emma Lancha Hernández, IESA-CSIC</li>
+</ul>
+<p>Into the belly of the State. Social movements from below, progressive governments and austerity in Argentina</p>
+<ul>
+<li>Dr Mariano Féliz, CIG-IdIHCS/CONICET-UNLP</li>
+</ul>
+<p>Brexit – the EU Membership Crisis That Wasn’t?</p>
+<ul>
+<li>Prof Waltraud Schelkle, European University Institute</li>
+<li>Dr Anna Kyriazi, University of Milan</li>
+<li>Dr Joseph Ganderson, LSE</li>
+</ul>
+<p>Perceptions of Responsibility and Crisis Events</p>
+<ul>
+<li>Dr Niccole Pamphilis, University of Glasgow</li>
+</ul>
+<p>Participatory Institutions, Political Parties, and Their Ideologies: What Do We Know?</p>
+<ul>
+<li>Mr Rodrigo Ramis Moyano, Instituto de Estudios Sociales Avanzados (IESA-CSIC)</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s24-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 19 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 19</li>
+<li>SPECIALIST GROUP NUMBER 19</li>
+</ul>
+<p>Turkey’s Resolution Process as a Way to Prevent Conflict Contagion</p>
+<ul>
+<li>Dr Ozlem Kayhan Pusane, Isik University</li>
+</ul>
+<p>The Market Dystopian Force of Finance and the Promise of Sustainable Derivatives</p>
+<ul>
+<li>Dr Dieter Pesendorfer, Queen&rsquo;s University Belfast</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s25-hbhb"><details open>
+  <summary>▶  Day 2 Session 3 Panel 21 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 21</li>
+<li>SPECIALIST GROUP NUMBER 21</li>
+</ul>
+<p>Organizing for social transformation:  evaluating alternative structures of left-populism parties</p>
+<ul>
+<li>Mr Nick Martin, University of Amsterdam</li>
+<li>Mr Piotr Marczynski, University of Amsterdam</li>
+<li>Mr Jouke Huijzer, Vrij Universtiteit Brussel (Department of Political Science or POLI)</li>
+</ul>
+<p>The urban-rural divide in West European politics: evidence from 30 years of elections</p>
+<ul>
+<li>Dr Lawrence McKay, University of Southampton</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s26-hbhb"><details open>
+  <summary>▶  Day 2 Session 4 Panel 21 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 21</li>
+<li>SPECIALIST GROUP NUMBER 21</li>
+</ul>
+<p>Democratic inclusion and participation and the challenge of inequality:  the case of Lisbon housing movement</p>
+<ul>
+<li>Dr Guya Accornero, Iscte - University Institute of Lisbon</li>
+</ul>
+<p>Driving or steering transport policy? Observations from Greater Manchester and the Liverpool City Region.</p>
+<ul>
+<li>Prof Georgina Blakeley, University of Huddersfield</li>
+<li>Prof Brendan Evans, University of Huddersfield</li>
+</ul>
+<p>Party System Closure in Asia: A Study of the Causes of Institutionalization since 1945</p>
+<ul>
+<li>Dr Fernando Casal Bertoa, University of Nottingham</li>
+<li>Dr Don S. Lee, Sungkyunkwan University</li>
+</ul>
+<p>Building a post-ethnic Fiji: a democratic-authoritarian paradox</p>
+<ul>
+<li>Dr Jastinder Kaur, SOAS University of London</li>
+</ul>
+<p>Russia’s Platform Bans and Wartime Censorship: Comparing State-Platform Conflict Dynamics</p>
+<ul>
+<li>Dr Marielle Wijermars, Helsinki Collegium for Advanced Studies</li>
+</ul>
+<p>How Are Groups Used As Part Of Visual Communication Strategies On Social Media And Television Election Campaign Adverts? Developing A Coding Framework That Moves Beyond Candidate-Centred Approaches</p>
+<ul>
+<li>Ms Niamh Cashell, University of Manchester</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s27-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 21 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 21</li>
+<li>SPECIALIST GROUP NUMBER 21</li>
+</ul>
+<p>Affective Investments in Investments or ”Until Debt Tear Us Apart”:  An Essex School Perspective on the Political Economic History of Financial Speculation</p>
+<ul>
+<li>Mr Julius Schneider, University of Essex</li>
+</ul>
+<p>How targeted economic policies shape government approval in rentier states? The case of Saudi Arabia</p>
+<ul>
+<li>Mr Meshal Alkhowaiter, London School of Economics and Political Science</li>
+</ul>
+<p>On the collective-symbolic: re-imagining reproductive justice in legally restrictive contexts</p>
+<ul>
+<li>Ms Liza Caruana-Finkel, University of Liverpool</li>
+</ul>
+<p>British Black Lives Matter: The Emergence of a Modern Civil Rights Movement.</p>
+<ul>
+<li>Dr Gillian Kennedy, University of Southampton</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s28-hbhb"><details open>
+  <summary>▶  Day 2 Session 3 Panel 22 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 22</li>
+<li>SPECIALIST GROUP NUMBER 22</li>
+</ul>
+<p>Author Meets Critics: The Politics of Becoming: Anonymity and Democracy in the Digital Age (OUP)</p>
+<ul>
+<li>Dr Hans Asenbaum, University of Canberra</li>
+<li>Prof Moya Lloyd, University of Essex</li>
+<li>Dr Rahel Süß, The New Institute</li>
+<li>Mr Antonin Lacelle-Webster, University of British Columbia</li>
+<li>Dr Nicole Curato, University of Canberra</li>
+</ul>
+<p>When the State Speaks Minority Language: Evidence from Turkey</p>
+<ul>
+<li>Dr Sevinç Öztürk, Bitlis Eren University</li>
+<li>Dr Aykut Öztürk, University of Glasgow</li>
+</ul>
+<p>Left Populist Parties in Office: Syriza’s and Podemos’ Socioeconomic Policies and Their Implications for Populism and the Left in Contemporary Europe</p>
+<ul>
+<li>Ms Beatrice Carella, Scuola Normale Superiore</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s29-hbhb"><details open>
+  <summary>▶  Day 2 Session 4 Panel 22 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 22</li>
+<li>SPECIALIST GROUP NUMBER 22</li>
+</ul>
+<p>Sacral government: Imagining political futures from the margins</p>
+<ul>
+<li>Dr Ramnath Bhat, London School of Economics and Political SCiebxe</li>
+</ul>
+<p>‘Lineages and legacies of New Leftism in Britain’</p>
+<ul>
+<li>Dr Madeleine Davis, Queen Mary University London</li>
+</ul>
+<p>Rethinking left Latin American populism of the XXI Century: a new approach to populism from the ecuadorian people during the government of Rafael Correa</p>
+<ul>
+<li>Mrs Ingrid Rios, Universidad de Chile</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s30-hbhb"><details open>
+  <summary>▶  Day 2 Session 4 Panel 23 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 23</li>
+<li>SPECIALIST GROUP NUMBER 23</li>
+</ul>
+<p>The meaning of opinion change in public deliberation? Examining the link between &lsquo;objective&rsquo; and subjective measures of opinion change in two deliberative mini-publics</p>
+<ul>
+<li>Dr Staffan Himmelroos, University of Helsinki</li>
+<li>Dr Henrik Serup Christensen, Åbo Akademi University</li>
+</ul>
+<p>Populism and radical right: a conceptual oversizing. Vox, the non-populist Spanish radical right</p>
+<ul>
+<li>Mr Alberto Escribano López, Marie Curie Sklodowska University</li>
+</ul>
+<p>Interpreting Parliament, But How? Centring Parliamentary Actors and Settings in Ethnographic Design and Practice</p>
+<ul>
+<li>Dr Marc Geddes, The University of Edinburgh</li>
+<li>Dr Cherry Miller, University of Glasgow</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s31-hbhb"><details open>
+  <summary>▶  Day 2 Session 5 Panel 24 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 24</li>
+<li>SPECIALIST GROUP NUMBER 24</li>
+</ul>
+<p>Problematic Protest and Alternate Activism Avenues: Assessing the Suitability of Online Activism Methods as an Alternative to Protest</p>
+<ul>
+<li>Ms Rachel Brock, University of Liverpool</li>
+</ul>
+<p>Inclusiveness in electoral reforms and willingness to vote among disabled people in Nigeria.</p>
+<ul>
+<li>Mr Afeez kolawole Shittu, Obafemi Awolowo University</li>
+</ul>
+<p>Pegasus trots over the EU. Doing investigative journalism in the “post-Snowden era”</p>
+<ul>
+<li>Mr Simone Benazzo, CEVIPOL, Université libre de Bruxelles</li>
+<li>Dr Andrea Gadotti, University of Oxford</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s32-hbhb"><details open>
+  <summary>▶  Day 2 Session 3 Panel 25 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 25</li>
+<li>SPECIALIST GROUP NUMBER 25</li>
+</ul>
+<p>“The Lesser Evil” Techniques of Neutralizing Populism in Pakistan</p>
+<ul>
+<li>Dr Sumrin Kalia, University College London</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s33-hbhb"><details open>
+  <summary>▶  Day 2 Session 4 Panel 25 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 25</li>
+<li>SPECIALIST GROUP NUMBER 25</li>
+</ul>
+<p>Understanding and contextualizing attitudes and beliefs for the COVID-19 pandemic. Vaccine hesitants, anti-vaccination supporters and pandemic deniers at the forefront</p>
+<ul>
+<li>Dr Anastasia Kafe, Panteion University</li>
+<li>Prof Vasiliki Georgiadou, Panteion University</li>
+</ul>
+<p>The Israeli New-Right Policy Community</p>
+<ul>
+<li>Prof Udi Lebel, Bar-Ilan University</li>
+<li>Dr Sharon Haleva-Amir, Bar-Ilan University</li>
+<li>Mr Guy Hatuka, Bar-Ilan University</li>
+</ul>
+<p>‘(The Cost of) a Place at the Table’ – The Gay Right, Donald Trump and Internal Culture-Wars.</p>
+<ul>
+<li>Mr Tom Newton, University of Reading</li>
+</ul>
+<p>Participatory and deliberative processes in young people in Argentine democracy</p>
+<ul>
+<li>Prof Sergio Ricardo Quiroga, National San</li>
+</ul>
+<p>When national elections meet European policies: Exploring policy responsiveness and congruence in a multi-level polity</p>
+<ul>
+<li>Dr Michele Scotto di Vettimo, University of Exeter</li>
+</ul>
+<p>EDI challenges in times of global crises Roundtable</p>
+<ul>
+<li>Dr Manjeet Ramgotra, SOAS University of London</li>
+<li>Mrs Katie Pruszynski, The University of Sheffield</li>
+<li>Dr Roula Nezi, University of Surrey</li>
+<li>Dr Shardia Briscoe-Palmer, University of Nottingham</li>
+<li>Dr Meryl Kenny, The University of Edinburgh</li>
+<li>Dr Cathy Elliott, University College London</li>
+</ul>
+
+</details></h3>
+<h3 id="hahahugoshortcode-s34-hbhb"><details open>
+  <summary>▶  Day 2 Session 3 Panel 26 NAME</summary>
+  <ul>
+<li>ROOM NUMBER 26</li>
+<li>SPECIALIST GROUP NUMBER 26</li>
+</ul>
+<p>Integrating Citizen Deliberation into Climate Governance: Lessons on robust Design from Six Climate Assemblies</p>
+<ul>
+<li>Dr Rikki Dean, Goethe University Frankfurt</li>
+<li>Prof John Boswell, University of Southampton</li>
+<li>Prof Graham Smith, University of Westminster</li>
+</ul>
+<p>Clientelism and The Distribution of Public Good: Africa in Perspective</p>
+<ul>
+<li>Ms HADIZA FIKA, University of Surrey</li>
+</ul>
+<p>Anti-Corruption Rhetoric of Political Parties in Three Parliamentary Assemblies</p>
+<ul>
+<li>Mr Aleš Michal, Charles University</li>
+</ul>
+
+</details></h3>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/en/day-2/session_4/" title="Day 2 Session 4"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/en/day-2/session_6/" title="Day 2 Session 6" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1677600950"></script>
+    <script src="/js/perfect-scrollbar.min.js?1677600950"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1677600950"></script>
+    <script src="/js/jquery.sticky.js?1677600950"></script>
+    <script src="/js/featherlight.min.js?1677600950"></script>
+    <script src="/js/highlight.pack.js?1677600950"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1677600950"></script>
+    <script src="/js/learn.js?1677600950"></script>
+    <script src="/js/hugo-learn.js?1677600950"></script>
+    
+        
+            <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105947713-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
+
